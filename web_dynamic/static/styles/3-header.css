@@ -9,19 +9,16 @@ header .logo {
     left: 20px;
     height: 100%;
 }
-#api_status {
-    margin-right: auto;
-    background-color: #cccccc;
-
-/* Add a new div element in the header tag:
-Attribute ID should be api_status
-Align to the right
-Circle of 40px diameter
-Center vertically
-At 30px of the right border
-Background color #cccccc */
+header #api_status {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  position: absolute;
+  right: 30px;
+transform: translateY(-130%);
 }
 
-.available {
+header .available {
     color: #ff545f;
 }
