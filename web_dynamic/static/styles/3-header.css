@@ -13,6 +13,13 @@ header .logo {
     margin-right: auto;
     background-color: #cccccc;
 
+/* Add a new div element in the header tag:
+Attribute ID should be api_status
+Align to the right
+Circle of 40px diameter
+Center vertically
+At 30px of the right border
+Background color #cccccc */
 }
 
 .available {
