@@ -15,14 +15,14 @@ $(document).ready(function () {
         }
         console.log(amenities);
 
-        $.get("http://' + window.location.hostname + ':5001/api/v1/status/", function(response)
-        {
-            if (response.status === 'OK') {
-                $('div#api_status').addClass('available');
-            }
-            else {
-                $('div#api_status').removeClass('available');
-            }
-        });
+    $.get("http://' + window.location.hostname + ':5001/api/v1/status/", function(response)
+	{
+        if (response.status === 'OK') {
+            $('div#api_status').addClass('available');
+        }
+        else {
+            $('div#api_status').removeClass('available');
+        }
+	});
 });
 });
